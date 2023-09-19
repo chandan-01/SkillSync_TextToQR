@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Noto+Sans&family=Roboto:wght@500&display=swap');
+
+:root {
+    --theme: burlywood;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: var(--theme);
+    text-align: center;
+    padding-top: 28px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+
+#inputText {
+    margin-top: 20px;
+    width: 80%;
+    height: 250px;
+    padding: 25px;
+}
+
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--theme);
+    font-weight: bolder;
+}
+
+.outputArea {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: fit-content;
+    height: fit-content;
+}
