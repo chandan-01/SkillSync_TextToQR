@@ -17,6 +17,9 @@ header {
     text-align: center;
     padding-top: 28px;
 }
+header h1{
+    padding-bottom: 28px;
+}
 
 .text-container {
     display: flex;
@@ -58,10 +61,4 @@ button:active{
     padding: 30px;
     width: fit-content;
     height: fit-content;
-}
-
-@media (max-width:500px) {
-    header{
-        padding-bottom: 28px;
-    }
 }
